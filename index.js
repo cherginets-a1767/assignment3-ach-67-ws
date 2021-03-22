@@ -1,16 +1,18 @@
-// import { useState, useEffect } from "react";
+
+//Couldn't even start doing it as I couldn't figure out how to pass data
+// through or manipulate objects in index.js from the controllers :(
+    
+
+
 
 //Constants
 const express = require('express');
 const bodyParser = require('body-parser');
-// const { v4: uuidv4 } = require('uuid');
 const cors = require('cors');
 
 const app = express();
 const port = 8000;
 
-// const [cart, setCart] = useState([]);
-// const [inventory, setInventory] = useState([]);
 
 //Allow pre-flight checks
 const corsOptions = {
